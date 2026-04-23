@@ -5448,7 +5448,8 @@
         },
         "isDefault": {
           "type": "boolean",
-          "description": "Whether this planet's spawn point is the one the player/ship will initially spawn at, if multiple spawn points exist.\nDo not use at the same time as makeDefaultIfFactRevealed or makeDefaultIfPersistentCondition\nSpawns unlocked with this have lowest priority"
+          "description": "Whether this planet's spawn point is the one the player/ship will initially spawn at, if multiple spawn points exist.\nDo not use at the same time as makeDefaultIfFactRevealed or makeDefaultIfPersistentCondition\nSpawns unlocked with this have lowest priority",
+          "default": true
         },
         "makeDefaultIfFactRevealed": {
           "type": "string",
@@ -5495,7 +5496,8 @@
         },
         "startWithSuit": {
           "type": "boolean",
-          "description": "If you spawn on a planet with no oxygen, you probably want to set this to true ;;)"
+          "description": "If you spawn on a planet with no oxygen, you probably want to set this to true ;;)",
+          "default": true
         }
       }
     },

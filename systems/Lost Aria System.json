@@ -36,7 +36,8 @@
     },
     "factRequiredForWarp": {
       "type": "string",
-      "description": "The FactID that must be revealed before it can be warped to. Don't set `canEnterViaWarpDrive` to `false` if\nyou're using this, because it will be overwritten."
+      "description": "The FactID that must be revealed before it can be warped to. Don't set `canEnterViaWarpDrive` to `false` if\nyou're using this, because it will be overwritten.",
+      "default": false
     },
     "canExitViaWarpDrive": {
       "type": "boolean",
@@ -45,7 +46,8 @@
     },
     "factRequiredToExitViaWarpDrive": {
       "type": "string",
-      "description": "The FactID that must be revealed for you to warp back to the main solar system from here. Don't set `canExitViaWarpDrive`\nto `false` if you're using this, because it will be overwritten."
+      "description": "The FactID that must be revealed for you to warp back to the main solar system from here. Don't set `canExitViaWarpDrive`\nto `false` if you're using this, because it will be overwritten.",
+      "default": false
     },
     "warpDriveSpawnPointID": {
       "type": "string",
@@ -188,7 +190,7 @@
       "properties": {
         "travelAudio": {
           "type": "string",
-          "description": "d:\\OuterWildsModManager\\OWML\\Mods\\HeroPlays1122.LostAria\\OW-Lost-Aria\\music\\Twilight.Space.mp3"
+          "description": "/music/Twilight.Space.mp3"
         },
         "endTimesAudio": {
           "type": "string",

@@ -1,4 +1,7 @@
 # Outer Wilds: Lost Aria
-Developed by HeroPlays1122
 
 Mod is still currently being developed
+
+Head Developer: HeroPlays1122
+NH Expert: RiddleMajor
+Dialogue Help: Callirhoe
